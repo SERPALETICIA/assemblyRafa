@@ -6,7 +6,22 @@ Utilizando arduino nós iremos aumentar a rotação dos motores a cada clique no
 
 Após clicar 3 vezes no botão o ciclo se reinicia, assim voltando ao início.
 
-![alt text](src/assets/code.png)
+```
+ switch (estado) {
+      case 0:
+        velocidade = 0;
+        break;
+      case 1:
+        velocidade = 64;
+        break;
+      case 2:
+        velocidade = 128;
+        break;
+      case 3:
+        velocidade = 192;
+        break;
+    }
+```
 #
 
 ### Contagem de presenças
