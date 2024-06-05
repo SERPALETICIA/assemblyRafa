@@ -7,7 +7,7 @@ Utilizando arduino nós iremos aumentar a rotação dos motores a cada clique no
 Após clicar 3 vezes no botão o ciclo se reinicia, assim voltando ao início.
 
 ```
- const int buttonPin = 2; // Pino do botão
+const int buttonPin = 2; // Pino do botão
 const int motorPin = 9; // Pino do motor
 
 int estado = 0; // Variável para controlar o estado da progressão
